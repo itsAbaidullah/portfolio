@@ -1,0 +1,6 @@
+body { font-family: Arial, sans-serif; margin: 0; padding: 0; }
+header { text-align: center; background-color: #0D6EFD; color: white; padding: 40px 20px; }
+.profile-pic { max-width: 150px; border-radius: 50%; margin-top: 20px; }
+section { padding: 20px; max-width: 800px; margin: auto; }
+footer { text-align: center; background: #f0f0f0; padding: 20px; }
+a { color: #0D6EFD; text-decoration: none; }
