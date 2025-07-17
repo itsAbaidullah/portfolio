@@ -1,45 +1,42 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Abaidullah Rajpoot | Portfolio</title>
-  <link rel="stylesheet" href="style.css">
+<html lang="en" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Abaidullah | Data Science Student</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+      body {
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+      }
+      /* Custom scrollbar for a more modern look */
+      ::-webkit-scrollbar {
+        width: 8px;
+      }
+      ::-webkit-scrollbar-track {
+        background: #000; /* black */
+      }
+      ::-webkit-scrollbar-thumb {
+        background: #f59e0b; /* amber-500 */
+        border-radius: 4px;
+      }
+      ::-webkit-scrollbar-thumb:hover {
+        background: #fcd34d; /* amber-300 */
+      }
+    </style>
+  <script type="importmap">
+{
+  "imports": {
+    "react/": "https://esm.sh/react@^19.1.0/",
+    "react": "https://esm.sh/react@^19.1.0",
+    "react-dom/": "https://esm.sh/react-dom@^19.1.0/"
+  }
+}
+</script>
 </head>
-<body>
-  <header>
-    <h1>Abaidullah Rajpoot</h1>
-    <p>Aspiring Data Scientist | Google & IBM Certified</p>
-    <img src="Abaid_enhanced.jpg" alt="Profile Picture" class="profile-pic" />
-  </header>
-
-  <section id="about">
-    <h2>About Me</h2>
-    <p>I’m a BS Data Science student at GCUF, driven by curiosity and committed to becoming a professional Data Scientist.</p>
-  </section>
-
-  <section id="education">
-    <h2>Education</h2>
-    <ul>
-      <li><strong>BS Data Science</strong> – GCUF (2023–2027)</li>
-      <li><strong>FSc Pre-Medical</strong> – BISE Lahore: 965 / 1100</li>
-      <li><strong>Matric</strong> – BISE Lahore: 1033 / 1100</li>
-    </ul>
-  </section>
-
-  <section id="blog">
-    <h2>My Blog</h2>
-    <p>External blogs will be linked here soon.</p>
-  </section>
-
-  <section id="contact">
-    <h2>Contact</h2>
-    <p>Email: abaidullahsabih123@gmail.com</p>
-    <p><a href="https://www.linkedin.com/in/abaidullah-a54754365/">LinkedIn</a></p>
-  </section>
-
-  <footer>
-    <p>&copy; 2025 Abaidullah Rajpoot</p>
-  </footer>
-</body>
+  <body class="bg-black leading-relaxed text-slate-400">
+    <div id="root"></div>
+    <script type="module" src="/index.tsx"></script>
+  </body>
 </html>
